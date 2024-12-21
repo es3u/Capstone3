@@ -8,17 +8,17 @@ Service: ALL
 
 1-BookingOneTime
 EndPoint:
-changeBookingStatus
-getBookingOneTimeDTO
-changeStatusByDate
-findBookingOneTimeByInfluencerIdAndBookingStatus 
-findWorkHistory
-acceptBooking
+changeBookingStatus()
+getBookingOneTimeDTO()
+changeStatusByDate()
+findBookingOneTimeByInfluencerIdAndBookingStatus ()
+findWorkHistory()
+acceptBooking()
 
 2-Influencer
 Enepiont :
-findBySpecialty 
-topPerformers
+findBySpecialty ()
+topPerformers()
 
 3-Platform 
 4-Type
@@ -36,4 +36,4 @@ Repository: ALL
 4-Type
 
 EndPoint:
-ReviewService -> addReviewOneTime
+ReviewService -> addReviewOneTime()
